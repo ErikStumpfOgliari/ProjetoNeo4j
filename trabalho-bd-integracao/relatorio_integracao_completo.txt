@@ -1,0 +1,80 @@
+RELATÓRIO DE INTEGRAÇÃO - POSTGRESQL + XML
+============================================================
+
+PEÇA: NULT (Código: 1)
+Cor: VERMELHO | Peso: 12.00 | Cidade: LONDRES
+Fornecimentos: 3
+Quantidade total: 1000 | Valor total: R$ 7000.00
+Detalhes:
+  - Fornecedor: 1, Projeto: 1, Qtd: 200, Valor: R$ 1000.00
+  - Fornecedor: 1, Projeto: 4, Qtd: 700, Valor: R$ 5000.00
+  - Fornecedor: 4, Projeto: 4, Qtd: 100, Valor: R$ 1000.00
+
+--------------------------------------------------
+
+PEÇA: BOLT (Código: 2)
+Cor: VERDE | Peso: 17.00 | Cidade: PARIS
+Fornecimentos: 2
+Quantidade total: 300 | Valor total: R$ 2100.00
+Detalhes:
+  - Fornecedor: 5, Projeto: 2, Qtd: 200, Valor: R$ 1200.00
+  - Fornecedor: 5, Projeto: 4, Qtd: 100, Valor: R$ 900.00
+
+--------------------------------------------------
+
+PEÇA: SCREW (Código: 3)
+Cor: AZUL | Peso: 17.00 | Cidade: ROMA
+Fornecimentos: 9
+Quantidade total: 3500 | Valor total: R$ 23200.00
+Detalhes:
+  - Fornecedor: 2, Projeto: 1, Qtd: 400, Valor: R$ 2000.00
+  - Fornecedor: 2, Projeto: 2, Qtd: 200, Valor: R$ 1000.00
+  - Fornecedor: 2, Projeto: 3, Qtd: 200, Valor: R$ 1000.00
+  - Fornecedor: 2, Projeto: 5, Qtd: 600, Valor: R$ 4000.00
+  - Fornecedor: 2, Projeto: 6, Qtd: 400, Valor: R$ 2000.00
+  - Fornecedor: 2, Projeto: 7, Qtd: 800, Valor: R$ 8000.00
+  - Fornecedor: 3, Projeto: 1, Qtd: 200, Valor: R$ 1200.00
+  - Fornecedor: 2, Projeto: 4, Qtd: 500, Valor: R$ 3000.00
+  - Fornecedor: 5, Projeto: 4, Qtd: 200, Valor: R$ 1000.00
+
+--------------------------------------------------
+
+PEÇA: SCREW (Código: 4)
+Cor: VERMELHO | Peso: 14.00 | Cidade: LONDRES
+Fornecimentos: 2
+Quantidade total: 1300 | Valor total: R$ 7900.00
+Detalhes:
+  - Fornecedor: 3, Projeto: 2, Qtd: 500, Valor: R$ 900.00
+  - Fornecedor: 5, Projeto: 4, Qtd: 800, Valor: R$ 7000.00
+
+--------------------------------------------------
+
+PEÇA: CAM (Código: 5)
+Cor: AZUL | Peso: 12.00 | Cidade: PARIS
+Fornecimentos: 4
+Quantidade total: 1100 | Valor total: R$ 12500.00
+Detalhes:
+  - Fornecedor: 2, Projeto: 2, Qtd: 100, Valor: R$ 500.00
+  - Fornecedor: 5, Projeto: 5, Qtd: 500, Valor: R$ 6000.00
+  - Fornecedor: 5, Projeto: 7, Qtd: 100, Valor: R$ 1000.00
+  - Fornecedor: 5, Projeto: 4, Qtd: 400, Valor: R$ 5000.00
+
+--------------------------------------------------
+
+PEÇA: COG (Código: 6)
+Cor: VERMELHO | Peso: 19.00 | Cidade: LONDRES
+Fornecimentos: 4
+Quantidade total: 1300 | Valor total: R$ 8200.00
+Detalhes:
+  - Fornecedor: 4, Projeto: 3, Qtd: 300, Valor: R$ 2000.00
+  - Fornecedor: 4, Projeto: 7, Qtd: 300, Valor: R$ 2000.00
+  - Fornecedor: 5, Projeto: 2, Qtd: 200, Valor: R$ 1200.00
+  - Fornecedor: 5, Projeto: 4, Qtd: 500, Valor: R$ 3000.00
+
+--------------------------------------------------
+
+ESTATÍSTICAS GERAIS:
+Total de peças: 6
+Total de fornecimentos: 24
+Quantidade total fornecida: 8500
+Valor total: R$ 60900.00

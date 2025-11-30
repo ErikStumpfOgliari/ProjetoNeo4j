@@ -1,0 +1,38 @@
+<pecas>
+  <peca cod_peca="1">
+    <pnome>NULT</pnome>
+    <cor>VERMELHO</cor>
+    <peso>12</peso>
+    <cdade>LONDRES</cdade>
+  </peca>
+  <peca cod_peca="2">
+    <pnome>BOLT</pnome>
+    <cor>VERDE</cor>
+    <peso>17</peso>
+    <cdade>PARIS</cdade>
+  </peca>
+  <peca cod_peca="3">
+    <pnome>SCREW</pnome>
+    <cor>AZUL</cor>
+    <peso>17</peso>
+    <cdade>ROMA</cdade>
+  </peca>
+  <peca cod_peca="4">
+    <pnome>SCREW</pnome>
+    <cor>VERMELHO</cor>
+    <peso>14</peso>
+    <cdade>LONDRES</cdade>
+  </peca>
+  <peca cod_peca="5">
+    <pnome>CAM</pnome>
+    <cor>AZUL</cor>
+    <peso>12</peso>
+    <cdade>PARIS</cdade>
+  </peca>
+  <peca cod_peca="6">
+    <pnome>COG</pnome>
+    <cor>VERMELHO</cor>
+    <peso>19</peso>
+    <cdade>LONDRES</cdade>
+  </peca>
+</pecas>

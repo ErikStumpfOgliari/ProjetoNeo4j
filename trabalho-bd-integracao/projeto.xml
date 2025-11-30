@@ -1,0 +1,30 @@
+<projetos>
+  <projeto cod_proj="1">
+    <jnome>SORTER</jnome>
+    <cidade>PARIS</cidade>
+  </projeto>
+  <projeto cod_proj="2">
+    <jnome>PUNCH</jnome>
+    <cidade>ROMA</cidade>
+  </projeto>
+  <projeto cod_proj="3">
+    <jnome>READER</jnome>
+    <cidade>ATENAS</cidade>
+  </projeto>
+  <projeto cod_proj="4">
+    <jnome>CONSOLE</jnome>
+    <cidade>ATENAS</cidade>
+  </projeto>
+  <projeto cod_proj="5">
+    <jnome>COLLATOR</jnome>
+    <cidade>LONDRES</cidade>
+  </projeto>
+  <projeto cod_proj="6">
+    <jnome>TERMINAL</jnome>
+    <cidade>OSLO</cidade>
+  </projeto>
+  <projeto cod_proj="7">
+    <jnome>TAPE</jnome>
+    <cidade>LONDRES</cidade>
+  </projeto>
+</projetos>

@@ -1,0 +1,46 @@
+ETAPA 1 - RESULTADOS XQUERY
+=============================
+
+a) PENÚLTIMA PEÇA DA ÁRVORE XML:
+<row>
+  <codigo>20</codigo>
+  <cod_fornec>5</cod_fornec>
+  <cod_peca>5</cod_peca>
+  <cod_proj>4</cod_proj>
+  <quantidade>400</quantidade>
+  <valor>5000.00</valor>
+</row>
+
+b) INSERIR ATRIBUTO DATA NOS FORNECIMENTOS:
+Todos os fornecimentos receberam o atributo data="2024-12-01"
+
+c) ATUALIZAR STATUS DOS FORNECEDORES DE LONDRES PARA 50:
+<fornecedor cod_fornec="1">
+  <fnome>SMITH</fnome>
+  <status>50</status>
+  <cidade>LONDRES</cidade>
+</fornecedor>
+
+e) SOMATÓRIO DAS QUANTIDADES DOS FORNECIMENTOS:
+8500
+
+g) CÓDIGO DOS FORNECEDORES QUE FORNECERAM PEÇAS EM MAIOR QUANTIDADE:
+2, 5
+
+j) PREÇO MÉDIO DAS PEÇAS:
+2537.5
+
+i) NOMES DAS PEÇAS E SEUS DADOS DE FORNECIMENTO:
+- Peça 1: 3 fornecimentos
+- Peça 2: 2 fornecimentos  
+- Peça 3: 9 fornecimentos
+- Peça 4: 2 fornecimentos
+- Peça 5: 4 fornecimentos
+- Peça 6: 4 fornecimentos
+
+RESUMO:
+=======
+- Total de quantidades fornecidas: 8.500 unidades
+- Preço médio dos fornecimentos: R$ 2.537,50
+- Fornecedores que mais forneceram: 2 e 5
+- Peça com mais fornecimentos: Peça 3 (9 fornecimentos)

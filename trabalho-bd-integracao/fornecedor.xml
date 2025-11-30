@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fornecedores>
+  <fornecedor cod_fornec="1">
+    <fnome>SMITH</fnome>
+    <status>20</status>
+    <cidade>LONDRES</cidade>
+  </fornecedor>
+  <fornecedor cod_fornec="2">
+    <fnome>JONES</fnome>
+    <status>10</status>
+    <cidade>PARIS</cidade>
+  </fornecedor>
+  <fornecedor cod_fornec="3">
+    <fnome>BLAKE</fnome>
+    <status>30</status>
+    <cidade>PARIS</cidade>
+  </fornecedor>
+  <fornecedor cod_fornec="4">
+    <fnome>CLARK</fnome>
+    <status>20</status>
+    <cidade>ATENAS</cidade>
+  </fornecedor>
+  <fornecedor cod_fornec="5">
+    <fnome>ADAMS</fnome>
+    <status>30</status>
+    <cidade>ATENAS</cidade>
+  </fornecedor>
+</fornecedores>
