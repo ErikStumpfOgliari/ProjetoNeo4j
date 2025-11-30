@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+venv_neo4j/
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+logs/
+*.log
+
+# Configurações do IDE
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Sistema
+.DS_Store
+Thumbs.db
