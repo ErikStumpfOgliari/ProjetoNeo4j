@@ -5,17 +5,16 @@ def testar_conexao_postgres():
     print("=" * 35)
     
     try:
-        # Tente diferentes combinações
         configs = [
             {
                 'host': 'localhost',
-                'database': 'postgres',  # Database padrão
+                'database': 'postgres',  
                 'user': 'postgres',
-                'password': '8520',  # ⚠️ SUA SENHA
+                'password': '8520',  
                 'port': 5433
             },
             {
-                'host': '127.0.0.1',  # IP local
+                'host': '127.0.0.1', 
                 'database': 'postgres',
                 'user': 'postgres', 
                 'password': '8520',
@@ -29,7 +28,6 @@ def testar_conexao_postgres():
                 conn = psycopg2.connect(**config)
                 print("✅ CONEXÃO BEM-SUCEDIDA!")
                 
-                # Criar nosso database
                 conn.autocommit = True
                 with conn.cursor() as cursor:
                     try:
