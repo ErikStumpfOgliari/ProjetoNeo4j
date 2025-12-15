@@ -1,0 +1,214 @@
+============================================================
+CONFIGURANDO MONGODB - BASE DE DOCUMENTOS
+============================================================
+✅ Conexão com MongoDB estabelecida!
+✅ Coleção 'interesses' limpa!
+✅ 5 documentos inseridos!
+
+============================================================
+ESTATÍSTICAS DO MONGODB
+============================================================
+📊 Banco de dados: recomendacao_db
+📊 Coleção: interesses
+📊 Total documentos: 5
+
+============================================================
+EXEMPLO DE DOCUMENTOS
+============================================================
+
+👤 Cliente: Mariana da Silva
+   ID: 1 | Email: mariana@email.com
+   Interesses principais: ['esportes', 'filmes', 'musica', 'hobbies', 'tecnologia']
+   Recomendações: ['Notebook Dell Inspiron', 'Kit Maquiagem Profissional']
+
+👤 Cliente: Paulo Pereira
+   ID: 2 | Email: paulo@email.com
+   Interesses principais: ['esportes', 'filmes', 'musica', 'hobbies', 'tecnologia']
+   Recomendações: ['Console PlayStation 5', 'Bicicleta Mountain Bike']
+
+============================================================
+✅ MONGODB CONFIGURADO COM SUCESSO!
+============================================================
+
+============================================================
+CONFIGURANDO MONGODB - BASE DE DOCUMENTOS
+============================================================
+✅ Conexão com MongoDB estabelecida!
+✅ Coleção 'interesses' limpa!
+✅ 5 documentos inseridos!
+
+============================================================
+ESTATÍSTICAS DO MONGODB
+============================================================
+📊 Banco de dados: recomendacao_db
+📊 Coleção: interesses
+📊 Total documentos: 5
+
+============================================================
+EXEMPLO DE DOCUMENTOS
+============================================================
+
+👤 Cliente: Mariana da Silva
+   ID: 1 | Email: mariana@email.com
+   Interesses principais: ['esportes', 'filmes', 'musica', 'hobbies', 'tecnologia']
+   Recomendações: ['Notebook Dell Inspiron', 'Kit Maquiagem Profissional']
+
+👤 Cliente: Paulo Pereira
+   ID: 2 | Email: paulo@email.com
+   Interesses principais: ['esportes', 'filmes', 'musica', 'hobbies', 'tecnologia']
+   Recomendações: ['Console PlayStation 5', 'Bicicleta Mountain Bike']
+
+============================================================
+✅ MONGODB CONFIGURADO COM SUCESSO!
+============================================================
+PS C:\Users\Erik\projeto_neo4j\trabalho_final\mongodb> python test_mongodb.py
+Testando conexão com MongoDB...
+✅ MongoDB está rodando!
+📁 Bancos disponíveis: ['admin', 'config', 'local', 'recomendacao_db']
+📄 Coleções em 'recomendacao_db': ['interesses']
+📊 Documentos na coleção 'interesses': 5
+
+📝 Exemplo de documento:
+   Nome: Mariana da Silva
+   ID: 1
+
+============================================================
+CONFIGURANDO NEO4J - BASE DE GRAFOS
+============================================================
+
+🗑️  Limpando banco...
+✅ Banco limpo
+
+👤 Criando clientes...
+✅ 5 clientes criados
+
+🤝 Criando amizades...
+✅ 8 relações de amizade criadas
+
+🎁 Criando indicações...
+✅ 7 relações de indicação criadas
+
+============================================================
+RESULTADOS DO SETUP
+============================================================
+📊 Total de nós: 5
+📊 Total de relações: 15
+
+👥 REDE DE AMIZADES:
+   • Mariana da Silva: Paulo Pereira, Ana Maria Dias
+   • Paulo Pereira: Mariana da Silva, Carlos Santos
+   • Ana Maria Dias: Mariana da Silva, Julia Oliveira
+   • Carlos Santos: Paulo Pereira
+   • Julia Oliveira: Ana Maria Dias
+
+🎁 INDICAÇÕES REALIZADAS:
+   • Mariana da Silva → Paulo Pereira: Notebook Dell Inspiron (R$ 4500.00)
+   • Carlos Santos → Mariana da Silva: Console PlayStation 5 (R$ 4500.00)
+   • Paulo Pereira → Carlos Santos: Smartphone Samsung Galaxy (R$ 3200.00)
+   • Paulo Pereira → Ana Maria Dias: Kit Maquiagem Profissional (R$ 360.00)
+   • Mariana da Silva → Paulo Pereira: Camiseta Estampada (R$ 269.70)
+   • Ana Maria Dias → Julia Oliveira: Fone de Ouvido Bluetooth (R$ 250.00)
+   • Mariana da Silva → Ana Maria Dias: Livro: Banco de Dados Avançado (R$ 241.00)
+
+============================================================
+✅ NEO4J CONFIGURADO COM SUCESSO!
+====================================================
+
+PS C:\Users\Erik\projeto_neo4j\trabalho_final\redis> python redis_setup.py
+======================================================================
+SISTEMA DE RECOMENDAÇÃO - UNOCHAPECÓ
+Banco de Dados II - Trabalho Final
+======================================================================
+✅ Redis conectado na porta 6379
+✅ Dados anteriores removidos
+
+======================================================================
+CRIANDO DADOS DAS 4 BASES DE DADOS
+======================================================================
+
+📊 BASE 1: POSTGRESQL (Relacional)
+✅ 5 clientes criados
+✅ 5 produtos criados
+✅ 4 compras criadas
+
+📄 BASE 2: MONGODB (Documentos)
+✅ 2 documentos de interesses criados
+
+🕸️  BASE 3: NEO4J (Grafos)
+✅ 5 nós de clientes criados
+✅ 8 relações de amizade criadas
+✅ 5 relações de indicação criadas
+
+🔑 BASE 4: REDIS (Chave-Valor Consolidado)
+✅ 5 clientes consolidados
+
+🤖 GERANDO RECOMENDAÇÕES PERSONALIZADAS
+   ✅ Mariana da Silva: 3 recomendações
+   ✅ Paulo Pereira: 3 recomendações
+   ✅ Ana Maria Dias: 2 recomendações
+
+======================================================================
+RESULTADOS FINAIS DA INTEGRAÇÃO
+======================================================================
+
+📊 ESTATÍSTICAS DO SISTEMA:
+   PostgreSQL     :  14 registros
+   MongoDB        :   2 registros
+   Neo4j          :  18 registros
+   Consolidado    :   8 registros
+   Total geral    :  42 registros
+
+======================================================================
+EXEMPLO PRÁTICO - CLIENTE 1 (MARIANA DA SILVA)
+======================================================================
+
+👤 CLIENTE CONSOLIDADO:
+   Nome: Mariana da Silva
+   CPF: 123.456.789-00
+   Cidade: Chapecó
+   Total amigos: 2
+   Amigos: Paulo Pereira, Ana Maria Dias
+
+🎯 INTERESSES (MongoDB):
+   • esportes: ciclismo, yoga
+   • filmes: romance, comédia
+   • musica: pop, mpb
+   • hobbies: leitura, culinária
+
+🎁 RECOMENDAÇÕES (3):
+
+   1. Notebook Dell Inspiron
+      💰 Valor: R$ 4500.00
+      📍 Tipo: historico
+      ℹ️  Motivo: Baseado em sua compra anterior (2024-12-01)
+
+   2. Console PlayStation 5
+      💰 Valor: R$ 4500.00
+      📍 Tipo: rede_social
+      ℹ️  Motivo: Popular entre seus 2 amigos
+
+   3. Livro Personalizado
+      💰 Valor: R$ 89.90
+      📍 Tipo: interesse_pessoal
+      ℹ️  Motivo: Alinhado com seus interesses em esportes
+
+======================================================================
+✅ INTEGRAÇÃO CONCLUÍDA COM SUCESSO!
+======================================================================
+
+🎯 COMANDOS PARA TESTAR:
+1. Ver todas as chaves:
+   redis-cli KEYS '*'
+
+2. Ver cliente consolidado:
+   redis-cli HGETALL consolidado:cliente:1
+
+3. Ver recomendações:
+   redis-cli HGETALL consolidado:recomendacoes:Mariana da Silva
+
+4. Ver dados PostgreSQL:
+   redis-cli HGETALL postgresql:cliente:1
+
+5. Ver dados MongoDB:
+   redis-cli GET mongodb:interesses:1
+PS C:\Users\Erik\projeto_neo4j\trabalho_final\redis>
